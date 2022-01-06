@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /app.js
-    destination: /var/www/html/
+    destination: /var/www/html/music_app
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
